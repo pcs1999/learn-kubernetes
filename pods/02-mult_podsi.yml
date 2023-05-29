@@ -3,7 +3,8 @@ apiVersion: v1
 kind: Pod
 
 metadata:
-  name: sample
+  name: dev
+  name: ops
 
 spec:
   containers:
