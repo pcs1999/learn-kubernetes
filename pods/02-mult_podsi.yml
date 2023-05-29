@@ -3,15 +3,14 @@ apiVersion: v1
 kind: Pod
 
 metadata:
-  name: dev
   name: ops
 
 spec:
   containers:
     - name: nginx
       image: nginx
-    - name: httpd
-      image: httpd
+    - name: tomcat
+      image: tomcat
 
 
 status: {}
